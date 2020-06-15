@@ -32,9 +32,15 @@ Após fazer Download das bibliotecas em formato .ZIP, copie as pastas para o dir
 
 ## Fazer Upload do Código para a placa
 
-Na ide, vá em Arquivo/Preferências e no campo “URLs Adicionais de Gerenciamento de Placas” inserir o [link do pacote ESP8266](http://arduino.esp8266.com/stable/package_esp8266com_index.json), depois clique em OK. Após isso, clique em Ferramentas/Placa:/Gerenciador de Placas. Procure pelo pacote do ESP8266 e instale.
+Na ide, vá em Arquivo/Preferências e no campo “URLs Adicionais de Gerenciamento de Placas” inserir o [link do pacote ESP8266](http://arduino.esp8266.com/stable/package_esp8266com_index.json), depois clique em OK. 
+
+Após isso, clique em Ferramentas/Placa:/Gerenciador de Placas. Procure pelo pacote do ESP8266 e instale.
 Para fazer a comunicação com o módulo precisa-se de um conversor USB-Serial.
 Clique em "Upload"
+
+Para verificar o funcionamento da conexão, bem como do sensor, clique em:
+"Tools" > "Serial Monitor"
+Escolha um baud de 115200.
 
 ## WifiManager.h
 
