@@ -21,7 +21,10 @@ Para o correto funcionamento do upload, necessita-se:
  DHT.h ([Download](https://github.com/adafruit/DHT-sensor-library)).
  
  - Módulo ESP-01;
- - Sensor DHT22.
+ - Sensor DHT22;
+ - Um resistor de 10kohms;
+ - Adaptador Serial para ESP-01;
+ - Uma chave.
 
 
 ## Como instalar as bibliotecas
