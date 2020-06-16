@@ -52,8 +52,8 @@ Escolha um baud de 115200.
 ## Configuração - Zabbix
 
 Para configurar o host no zabbix, adicione o IP e o host no código como mostrado no exemplo:
-
-> #define SERVERADDR 192, 168, 25, 12 // Zabbix server Address
-> #define ZABBIXPORT 10051      // Zabbix erver Port
-> #define ZABBIXAGHOST "ESP01"  // Zabbix item's host name
-
+´´´
+#define SERVERADDR 192, 168, 25, 12 // Zabbix server Address
+#define ZABBIXPORT 10051      // Zabbix erver Port
+#define ZABBIXAGHOST "ESP01"  // Zabbix item's host name
+´´´
