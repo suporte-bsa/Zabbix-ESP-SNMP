@@ -8,6 +8,7 @@ Esse é um tutorial para configuração de SNMP para monitoração de temperatur
 
 # Esquemático
 
+![](esq.png)
 
 ## Requerimentos
 
